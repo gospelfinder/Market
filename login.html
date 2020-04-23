@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>중고거래시장-로그인</title>
+		<meta name="author" content="Park">
+		<meta name="keywords" content="Market, Secondhand, Sell, Buy, 중고거래, 중고, 거래, 시장, 중고거래시장">
+		<meta name="description" content="Secondhand online Market">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">  
+   		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">  
+   		<link rel="stylesheet" href="./css/bootstrap.css"/> 
+   		<link rel="stylesheet" href="./css/bootstrap-theme.css"/>
+   		<link rel="stylesheet" href="./css/common.css">
+   		<link rel="stylesheet" href="./css/secondhand.css" type="text/css">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<dl id="access">
+			<dt>바로가기 및 건너뛰기 링크</dt>
+			<dd><a href="#contents">본문 바로가기</a></dd>
+			<dd><a href="#navigation">주메뉴 바로가기</a></dd>
+		</dl>
+		
+		<div id="wrap">
+			<header>
+				<div class="divwrap container">
+					<div class="joinwrap row">
+						<h1 class="indextitle"><a href="index.html">중고거래시장</a></h1>
+						
+						<nav class="navi col-sm-6">
+							<ul class="logjoin">
+								<li class="li_margin_left"><a href="sub1.html" onmouseover="this.innerText='Intro'" onmouseout="this.innerText='시장소개'">시장소개</a></li>
+								<li><a href="sub2.html" onmouseover="this.innerText='Goods'" onmouseout="this.innerText='상품보기'">상품보기</a></li>
+								<li><a href="sub3.html" onmouseover="this.innerText='Sales'" onmouseout="this.innerText='판매하기'">판매하기</a></li>
+								<li class="limarginright"><a href="sub4.html" onmouseover="this.innerText='Notice'" onmouseout="this.innerText='공지사항'">공지사항</a></li>
+								<li class="join"><a href="join.html" onmouseover="this.innerText='Sign-up'" onmouseout="this.innerText='회원가입'">회원가입</a></li>
+								<li class="login"><a href="login.html" onmouseover="this.innerText='Login'" onmouseout="this.innerText='로그인'">로그인</a></li>
+							</ul>
+						</nav>
+						
+					</div>
+					<hr>
+				</div>
+			</header>
+			
+			<section>
+				<div class="login_wrap">
+					<div class="login_inner">
+						<div class="login_h2">
+							<h2>로그인</h2>
+						</div>
+						<div class="login_border_wrap">
+						
+							<form name="login" action="authentication.jsp" method="post">
+								<div class="login_border">
+									<div class="id_border">
+										<input type="text" name="login_id" placeholder="아이디를 입력해주세요." class="id_box">
+									</div>
+									<div>
+										<input type="password" name="login_pwd" placeholder="비밀번호를 입력해주세요." class="pwd_box">
+									</div>
+								</div>
+								<div class="checkbox_wrap">
+									<input type="checkbox" name="save_id" value="아이디를 저장했습니다."><span>아이디 저장</span>
+									<div class="find_wrap">
+										<a href="">아이디(이메일) 찾기</a>
+										<span>|</span>
+										<a href="">비밀번호 찾기</a>
+									</div>
+								</div>
+								<div class="id_pwd_wrap">
+									<a href="join.html">회원가입</a>
+									<input type="submit" value="로그인" class="submit_input">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<footer id="footer">
+				<div class="footer-inner">
+					<div class="footer-banner">
+						<div class="footer_add">
+							<p class="footer-list-left">사업자 등록번호: 000-00-00000</p>
+							<p>주소: 대전광역시 대덕구 비래동</p>
+							<p class="footer-list-right">고객문의: <a href="">gospelfinder@gmail.com</a></p>
+						</div>
+						<div>
+							<p class="footer-president"><span><strong>대표 박의성</strong></span></p>
+						</div>
+						<div>
+							<p class="footer-clear"><span>Copyright &copy 중고거래시장 Co., Ltd. All Rights Reserved.</span></p>
+						</div>						
+					</div>
+				</div> <!-- footer-inner end -->
+			</footer>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="./bootstrap-3.3.2-dist/js/bootstrap.js"></script> 
+	</body>
+</html>

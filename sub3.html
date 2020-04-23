@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>중고거래시장-상품팔기</title>
+		<meta name="author" content="Park">
+		<meta name="keywords" content="Market, Secondhand, Sell, Buy, 중고거래, 중고, 거래, 시장, 중고거래시장">
+		<meta name="description" content="Secondhand online Market">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">  
+   		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">  
+   		<link rel="stylesheet" href="./css/bootstrap.css"/> 
+   		<link rel="stylesheet" href="./css/bootstrap-theme.css"/>
+   		<link rel="stylesheet" href="./css/common.css">
+   		<link rel="stylesheet" href="./css/secondhand.css" type="text/css">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<dl id="access">
+			<dt>바로가기 및 건너뛰기 링크</dt>
+			<dd><a href="#contents">본문 바로가기</a></dd>
+			<dd><a href="#navigation">주메뉴 바로가기</a></dd>
+		</dl>
+		
+		<div id="wrap">
+			<header>
+				<div class="divwrap container">
+					<div class="joinwrap row">
+						<h1 class="indextitle"><a href="index.html">중고거래시장</a></h1>
+						
+						<nav class="navi col-sm-6">
+							<ul class="logjoin">
+								<li class="li_margin_left"><a href="sub1.html" onmouseover="this.innerText='Intro'" onmouseout="this.innerText='시장소개'">시장소개</a></li>
+								<li><a href="sub2.html" onmouseover="this.innerText='Goods'" onmouseout="this.innerText='상품보기'">상품보기</a></li>
+								<li><a href="sub3.html" onmouseover="this.innerText='Sales'" onmouseout="this.innerText='판매하기'">판매하기</a></li>
+								<li class="limarginright"><a href="sub4.html" onmouseover="this.innerText='Notice'" onmouseout="this.innerText='공지사항'">공지사항</a></li>
+								<li class="join"><a href="join.html" onmouseover="this.innerText='Sign-up'" onmouseout="this.innerText='회원가입'">회원가입</a></li>
+								<li class="login"><a href="login.html" onmouseover="this.innerText='Login'" onmouseout="this.innerText='로그인'">로그인</a></li>
+							</ul>
+						</nav>
+						
+					</div>
+					<hr>
+				</div>
+			</header>
+			
+			<section>
+				<div>
+					<div class="sub3_h2_wrap">
+						<h2>상품판매하기</h2>
+					</div>
+					<form name="regester" action="regester.jsp" method="post" encType="multiplart/form-data">
+						<fieldset>
+							<legend>중고상품등록</legend>
+							<div class="sub3_table_wrap">
+								<table>
+									<tr>
+										<td>제목</td>
+										<td><input type="text" name="title" placeholder="제목" size="50"></td>
+									</tr>
+									<tr>
+										<td>카테고리</td>
+										<td><select name="categori" class="sub3_select">
+												<option value="의류" selected>의류</option>
+												<option value="뷰티/미용">뷰티/미용</option>
+												<option value="유아">유아</option>
+												<option value="디지털/가전">디지털/가전</option>
+												<option value="게임/취미">게임/취미</option>
+												<option value="도서/음반">도서/음반</option>
+												<option value="가구/인테리어">가구/인테리어</option>
+												<option value="생필품">생필품</option>
+												<option value="기타">기타</option>
+												<option value="삽니다">삽니다</option>
+											</select></td>
+									</tr>
+									<tr>
+										<td>가격</td>
+										<td><input type="text" name="price" placeholder="&#8361; 가격" size="17"><span> 원</span></td>
+									</tr>
+									<tr>
+										<td class="description">상품설명</td>
+										<td><textarea cols="10" name="content" placeholder="게시글 내용을 작성해주세요."></textarea></td>
+									</tr>
+									<tr>
+										<td>사진</td>
+										<td><input type="file" name="filename" accept="image/gif, image/jpeg, image/png, image/bmp" placeholder="사진을 선택하세요."></td>
+									</tr>
+									<tr>
+										<td colspan="2" class="last_td">
+											<a href="sub2.html" class="sub3_to_title">목록</a>
+											<input type="reset" value="취소" class="sub3_cancel">
+											<input type="submit" value="등록" class="sub3_submit">
+										</td>
+									</tr>
+								</table>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</section>
+		
+		<footer id="footer">
+				<div class="footer-inner">
+					<div class="footer-banner">
+						<div class="footer_add">
+							<p class="footer-list-left">사업자 등록번호: 000-00-00000</p>
+							<p>주소: 대전광역시 대덕구 비래동</p>
+							<p class="footer-list-right">고객문의: <a href="">gospelfinder@gmail.com</a></p>
+						</div>
+						<div>
+							<p class="footer-president"><span><strong>대표 박의성</strong></span></p>
+						</div>
+						<div>
+							<p class="footer-clear"><span>Copyright &copy 중고거래시장 Co., Ltd. All Rights Reserved.</span></p>
+						</div>						
+					</div>
+				</div> <!-- footer-inner end -->
+			</footer>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="./bootstrap-3.3.2-dist/js/bootstrap.js"></script> 
+	</body>
+</html>
