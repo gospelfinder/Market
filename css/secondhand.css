@@ -14,7 +14,7 @@ input {height:30px; line-height:30px; font-size:15px;}
 .topli {padding-top:5px; font-size:13px;}
 .bday {width:60px; height:30px; line-height:30px; font-size:15px;}
 .select {height:30px; line-height:30px; font-size:15px;}
-.btn {height:30px; font-size:15px; width:100px; padding:0;}
+.btns {height:30px; font-size:15px; width:100px; padding:0;}
 .agreeli {padding-left:200px; padding-top:10px;}
 .agreelimi {padding-left:230px;}
 .agreelast {text-align:center; padding-bottom:10px}
@@ -26,56 +26,17 @@ input {height:30px; line-height:30px; font-size:15px;}
 #access a {display:block; position:absolute; top:-10000px; left:0; height:0;}
 
 /* index - 헤더*/
-#wrap {width:100%; height:100%;}
-.divwrap {width:100%; height:80px;}
-.joinwrap {width:100%; height:80px; overflow:hidden;}
-.indextitle {height:80px; line-height:80px; margin-left:200px; float:left; font-size:32px; font-weight:bold;}
-.indextitle a {display:inline-block; text-decoration:none !important;}
-.logjoin {overflow:hidden; width:1200px; margin:0 auto;}
-.logjoin li {float:left; width:14%; height:80px; line-height:80px; text-align:center; font-size:15px;}
-.li_margin_left {margin-left:80px;}
-.limarginright {margin-right:100px;}
-.navi {float:left}
-.navi ul li a {display:inline-block; text-decoration:none !important; width:100%;}
+header nav a.navbar-brand {font-size:40px; font-weight:bold;}
+header nav .navbar-collapse form.form-inline {text-align:right;}
 
-
-hr {border:0.5px solid #e5e5e5;}
 
 /*index - 배경그림*/
+.carouselExampleFade .carousel-inner .carousel-item .d-block {}
 
-#main-visual {width:100%;}
-#main-visual .mainimage {width:100%; background: url('../image/costmain.jpg') no-repeat; background-size:cover;}
-#main-visual .searchcover {width:100%; height:100%;}
-#main-visual .mainimage .searchlist li {height:920px; position:relative;}
-#main-visual .mainimage .searchlist li .searchbox {width:400px; height:50px; position: absolute; left:45.5%; margin-left:-200px; top:45%; margin-top:-25px;}
-#main-visual .mainimage .searchlist li .searchbtn {width:100px; height:50px; position: absolute; left:59%; margin-left:-50px; top:45%; margin-top:-25px;}
 
-.text-content {margin:50px 50px 100px 50px;}
-.text-title {font-size:50px; font-weight:bold; padding-bottom:20px;}
-.text-content span {font-size:20px;}
 
 /*index - 상품진열*/
-#main-section {width:100%;}
-#main-section .main-section-wrap {margin-bottom:100px;}
-#main-section .main-section-wrap .list {overflow:hidden;}
-.mainli {width:22.5%; height:22.5%; margin:0 16px; margin:0% 0.667%; padding-bottom:80px; float:left;}
-#main-section .main-section-wrap .list li:nth-child(4n+1) {margin-left:3%;}
-#main-section .main-section-wrap .list li:nth-child(4n+4) {margin-right:3%;}
 
-.maindl {position:relative; padding-top:80%;}
-.maindt {font-size:30px;}
-.maindd1 {font-size:18px;}
-.maindd-price {font-size:20px; font-weight:bold;}
-.image {position: absolute; left: 0; top: 0; width: 100%; padding-top: inherit; overflow: hidden;}
-.main-image-box {position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; display:block;}
-.image-print {width:100%; height:100%; background: url('../image/egg.jpg') no-repeat; background-size:cover; background-position:50% 50%;}
-.image-print2 {width:100%; height:100%; background: url('../image/bear.jpg') no-repeat; background-size:cover; background-position:50% 50%;}
-.image-print3 {width:100%; height:100%; background: url('../image/boat.jpg') no-repeat; background-size:cover; background-position:50% 50%;}
-.image-print4 {width:100%; height:100%; background: url('../image/birds.jpg') no-repeat; background-size:cover; background-position:50% 50%;}
-.image-print5 {width:100%; height:100%; background: url('../image/castle.jpg') no-repeat; background-size:cover; background-position:50% 50%;}
-.image-print6 {width:100%; height:100%; background: url('../image/cat.jpg') no-repeat; background-size:cover; background-position:50% 50%;}
-.image-print7 {width:100%; height:100%; background: url('../image/chicks.jpg') no-repeat; background-size:cover; background-position:50% 50%;}
-.image-print8 {width:100%; height:100%; background: url('../image/cup.jpg') no-repeat; background-size:cover; background-position:50% 50%;}
 
 /*index - more*/
 
@@ -84,18 +45,12 @@ hr {border:0.5px solid #e5e5e5;}
 
 
 /*index - footer*/
-
-#footer {background-color:#fff; background-color:#222; width:100%;}
-.footer-inner {width:100%; height:100%; padding:50px 0; color:#333; letter-spacing:-1px; overflow:hidden; background-color:; text-align:center;}
-.footer-inner .footer-banner {display:inline-block;}
-.footer-inner .footer-banner .footer_add p {float:left; font-size:17px; color: rgba(255,255,255,0.3)}
-.footer-inner .footer-banner .footer_add p a {color: rgba(255,255,255,0.3)}
-.footer-inner .footer-banner .footer-list-left {margin-right:30px; margin-bottom:30px; }
-.footer-inner .footer-banner .footer-list-right {margin-left:30px;}
-.footer-president {clear:both; margin-bottom:30px;}
-.footer-president span {font-size:18px; text-align:center; color:#fff;}
-.footer-clear {clear:both;}
-.footer-clear span {font-size:16px; color: rgba(255,255,255,0.3)}
+footer {background-color:#333;}
+footer .container {margin-top:100px; padding-top:70px; padding-bottom:40px;}
+footer .container .row .col-sm-12 {text-align:center; color:rgba(255,255,255,0.3); margin-bottom:30px;}
+footer .container .row .col-sm-12 .address {font-size:16px;}
+footer .container .row .col-sm-12 .president {text-align:center; color:#fff; font-weight:bold; font-size:18px;}
+footer .container .row .col-sm-12 .copyright {text-align:center;}
 
 
 
